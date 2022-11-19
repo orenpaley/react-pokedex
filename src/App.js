@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+import Pokedex from './Pokedex';
+import pokemon from './pokemon';
+import Pokecard from './Pokecard';
 import './App.css';
 
+let charmander = pokemon[0]; 
+console.log("charmander :" ,charmander)
+
+
 function App() {
+  console.log('TEST')
+  console.log(pokemon[0])
+  console.log("All PoKeMon", pokemon)
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {/* <Pokecard pokemon={charmander} /> */}
+        <Pokedex pokemon={pokemon} />
       </header>
+      
     </div>
   );
 }
