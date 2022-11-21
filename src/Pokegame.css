@@ -1,0 +1,17 @@
+  
+.p1 {
+  background-color: bisque;
+  padding: 3px;
+}
+
+.p2 {
+  background-color: burlywood;
+  padding: 3px;
+}
+
+.winner {
+  height: 56px;
+  background-color: black;
+  padding-top: 4px;
+  font-size: 15px;
+}

@@ -1,0 +1,14 @@
+
+.Pokecard {
+  background-color: lightgray;
+  border: 2px black solid;
+  padding: 2px;
+  width: 250px;
+  font-size: 12px;
+} 
+
+.Pokecard:hover {
+  animation: shakeY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.25s; /* don't forget to set a duration! */
+  animation-iteration-count: .33;
+}

@@ -1,0 +1,16 @@
+.Pokedex {
+  justify-content: center;
+  flex : 010;
+  column-gap: 2em;
+  max-height: 40%;
+  margin-bottom: 0px;
+  }
+
+  .Pokedex > div {
+    margin-bottom: .8em;
+  }
+
+  .Pokedex:last-child {
+    margin-bottom: 0px
+  }
+  

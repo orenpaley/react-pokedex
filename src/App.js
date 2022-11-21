@@ -1,23 +1,16 @@
-import Pokedex from './Pokedex';
-import pokemon from './pokemon';
-import Pokecard from './Pokecard';
-import './App.css';
 
-let charmander = pokemon[0]; 
-console.log("charmander :" ,charmander)
+import pokemon from './pokemon';
+import Pokegame from './Pokegame';
+import './App.css';
 
 
 function App() {
-  console.log('TEST')
-  console.log(pokemon[0])
-  console.log("All PoKeMon", pokemon)
   return (
     <div className="App">
       <header className="App-header">
-        {/* <Pokecard pokemon={charmander} /> */}
-        <Pokedex pokemon={pokemon} />
+      <meta name="viewport" content="initial-scale=1, width=device-width" />
+        <Pokegame pokemon={pokemon}/> 
       </header>
-      
     </div>
   );
 }
